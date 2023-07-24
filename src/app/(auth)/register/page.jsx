@@ -1,4 +1,5 @@
 import React from 'react'
+import './Register.module.css'
 
 const page = () => {
   return (

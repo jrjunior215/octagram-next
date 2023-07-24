@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className={style.line_box}>
         </div>
         <ul className={style.nav_links}>
-          <li><Link href="/" legacyBehavior><a className={style.active}>HOME</a></Link></li>
+          <li><Link href="/" legacyBehavior><a>HOME</a></Link></li>
           <li><Link href="/product" legacyBehavior><a>PRODUCT</a></Link></li>
           <li><Link href="/creator" legacyBehavior><a>CREATOR</a></Link></li>
           <li><Link href="/contact" legacyBehavior><a>CONTACT</a></Link></li>
@@ -32,7 +32,7 @@ const Navbar = () => {
 
         <div className={style.dropdown_menu}>
           <ul className={style.dropmenu}>
-            <li><Link href="/" legacyBehavior><a className={style.active}>HOME</a></Link></li>
+            <li><Link href="/" legacyBehavior><a>HOME</a></Link></li>
             <li><Link href="/product" legacyBehavior><a>PRODUCT</a></Link></li>
             <li><Link href="/creator" legacyBehavior><a>CREATOR</a></Link></li>
             <li><Link href="/contact" legacyBehavior><a>CONTACT</a></Link></li>
